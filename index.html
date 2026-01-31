@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Japan through sake - Step inside real breweries, see how sake is made, taste it at the source, and meet the people who craft it.">
+  <meta name="keywords" content="sake, Japan, brewery tour, sake tasting, Japanese culture, travel">
+  <title>Japanese SAKE - Discover Japan through sake</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="header__logo">Japanese SAKE</a>
+
+        <nav class="header__nav" aria-label="Main navigation">
+          <ul class="header__nav-list">
+            <li><a href="#about" class="header__nav-link">About us</a></li>
+            <li><a href="#" class="header__nav-link">Online shop</a></li>
+            <li><a href="#breweries" class="header__nav-link">Breweries</a></li>
+            <li><a href="#" class="header__nav-link">blog</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__actions">
+          <a href="#" class="btn btn--primary btn--sm">LOG IN</a>
+          <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span class="menu-toggle__bar"></span>
+            <span class="menu-toggle__bar"></span>
+            <span class="menu-toggle__bar"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <ul class="mobile-nav__list">
+      <li><a href="#about" class="mobile-nav__link">About us</a></li>
+      <li><a href="#" class="mobile-nav__link">Online shop</a></li>
+      <li><a href="#breweries" class="mobile-nav__link">Breweries</a></li>
+      <li><a href="#" class="mobile-nav__link">blog</a></li>
+      <li><a href="#" class="mobile-nav__link">LOG IN</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero" style="background-image: url('images/header.png');">
+    <div class="hero__overlay"></div>
+    <div class="container">
+      <div class="hero__content hero__content--centered">
+        <h1 class="hero__title">Discover Japan through sake.</h1>
+        <p class="hero__description">
+          Step inside real breweries — see how sake is made, taste it at the source, and meet the people who craft it.
+        </p>
+        <div class="hero__signup">
+          <p class="hero__signup-text">Sign up to receive monthly insights on Japan's sake culture & brewery access.</p>
+          <form class="hero__signup-form">
+            <input type="email" class="hero__signup-input" placeholder="Your email" required>
+            <button type="submit" class="btn btn--primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="services__grid">
+        <div class="services__content">
+          <h2 class="section__title section__title--large">Our Services…</h2>
+          <p class="services__text">
+            我們整理全日本既有的酒廠見學行程，替你完成預約並提供專業中文／英文導覽。体験由酒廠提供，我們專注協助溝通與帶領，讓你無障礙深入釀造現場。交通 飯店 TAXI／ Only tour ／Both ＯＫ
+          </p>
+        </div>
+        <div class="services__image">
+          <img src="images/abc58132013554dff335502175c67959.jpg" alt="Sake brewery tanks">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Breweries Section -->
+  <section class="section section--alt" id="breweries">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Check out breweries</h2>
+        <p class="section__subtitle-text">Pre-register and purchase your tickets early!</p>
+      </div>
+
+      <div class="experience__grid">
+        <div class="experience__content">
+          <h3 class="experience__title">PICK THE experience</h3>
+          <p class="experience__text">For out-of-towners, book at our partner hotels and/or taxi</p>
+        </div>
+        <div class="experience__image">
+          <img src="images/2d19298fb178c290ad2d515d731ac688.jpg" alt="Sake tasting">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Started Section -->
+  <section class="section getstarted">
+    <div class="getstarted__image-full">
+      <img src="images/c98f20af59cc1d4f8cf3f619f021ac38.jpg" alt="Traditional Japanese town">
+      <div class="getstarted__overlay"></div>
+      <div class="getstarted__content-overlay">
+        <h2 class="section__title">Get Started</h2>
+        <p class="getstarted__text">have taste with ppl who actually brewey and explanation</p>
+        <a href="#regions" class="btn btn--white">Explore Regions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Regions Section -->
+  <section class="section section--alt" id="regions">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Explore by Region</h2>
+      </div>
+
+      <div class="regions__grid">
+        <!-- Toyama - 五箇山合掌造り (Pixabay ID: 847300) -->
+        <div class="region-card region-card--image" style="background-image: url('https://cdn.pixabay.com/photo/2015/07/17/16/58/gassho-village-847300_640.jpg');">
+          <div class="region-card__overlay"></div>
+          <div class="region-card__content">
+            <h3 class="region-card__name">Toyama</h3>
+            <p class="region-card__tagline">Craft from Bay & Peaks</p>
+          </div>
+        </div>
+
+        <!-- Tokyo - 東京タワー (Pexels ID: 149498) -->
+        <div class="region-card region-card--image" style="background-image: url('https://images.pexels.com/photos/149498/pexels-photo-149498.jpeg?auto=compress&cs=tinysrgb&w=600');">
+          <div class="region-card__overlay"></div>
+          <div class="region-card__content">
+            <h3 class="region-card__name">Tokyo</h3>
+            <p class="region-card__tagline">Urban Sake Culture</p>
+          </div>
+        </div>
+
+        <!-- Hokkaido - 小樽運河 (Pixabay ID: 1186641) -->
+        <div class="region-card region-card--image" style="background-image: url('https://cdn.pixabay.com/photo/2016/02/10/13/33/japan-1186641_640.jpg');">
+          <div class="region-card__overlay"></div>
+          <div class="region-card__content">
+            <h3 class="region-card__name">Hokkaido</h3>
+            <p class="region-card__tagline">Northern New Wave Brewers</p>
+          </div>
+        </div>
+
+        <!-- Nagano - 松本城 (Pixabay ID: 4381866) -->
+        <div class="region-card region-card--image" style="background-image: url('https://cdn.pixabay.com/photo/2019/08/27/05/01/matsumoto-castle-4381866_640.jpg');">
+          <div class="region-card__overlay"></div>
+          <div class="region-card__content">
+            <h3 class="region-card__name">Nagano</h3>
+            <p class="region-card__tagline">Mountain Water Brewers</p>
+          </div>
+        </div>
+
+        <!-- Not sure -->
+        <div class="region-card region-card--outline">
+          <div class="region-card__content">
+            <h3 class="region-card__name">Not sure</h3>
+            <p class="region-card__tagline">Tell us what you want</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section class="section" id="packages">
+    <div class="container">
+      <div class="packages__grid">
+        <!-- Tasting Packages -->
+        <div class="package-card">
+          <div class="package-card__image">
+            <img src="images/2d19298fb178c290ad2d515d731ac688.jpg" alt="Sake tasting">
+          </div>
+          <div class="package-card__content">
+            <h3 class="package-card__title">tasting packages</h3>
+            <p class="package-card__description">For our out-of-towners, book at our partner hotels.</p>
+            <a href="#" class="btn btn--secondary btn--sm">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Masu Workshop -->
+        <div class="package-card">
+          <div class="package-card__image">
+            <img src="images/9aa3d51332bc758f2bfed44a17220f89.jpg" alt="Masu and rice">
+          </div>
+          <div class="package-card__content">
+            <h3 class="package-card__title">make your own ｍａｓｕ workshop</h3>
+            <p class="package-card__description"></p>
+            <a href="#" class="btn btn--secondary btn--sm">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Sake Workshop -->
+        <div class="package-card">
+          <div class="package-card__image">
+            <img src="images/abc58132013554dff335502175c67959.jpg" alt="Sake brewery">
+          </div>
+          <div class="package-card__content">
+            <h3 class="package-card__title">make your own sake workshop</h3>
+            <p class="package-card__description"></p>
+            <a href="#" class="btn btn--secondary btn--sm">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container">
+      <h2 class="cta__title">Book Your Sake Experience in Japan.</h2>
+      <p class="cta__text">
+        City vibes, mountain water, northern new waves — choose your sake journey.
+      </p>
+      <div class="cta__buttons">
+        <a href="#regions" class="btn btn--white btn--lg">Explore by ＡＲＥＡ</a>
+        <a href="#packages" class="btn btn--outline-white btn--lg">View our full packages</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Connected Section -->
+  <section class="section connected">
+    <div class="container">
+      <div class="connected__content">
+        <h2 class="section__title">Connected!</h2>
+        <p class="connected__text">
+          Get curated sake brewery access, insider sake recommendations, and hidden local spots — before you even arrive.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer__grid">
+        <!-- Contact Us -->
+        <div class="footer__contact">
+          <h4 class="footer__nav-title">Contact Us</h4>
+          <address class="footer__address">
+            <p>123 Anywhere St. Any City, ST 123456</p>
+            <p><a href="tel:+911234567890">+91-123-456-7890</a></p>
+            <p><a href="mailto:hello@reallygreatsite.com">hello@reallygreatsite.com</a></p>
+            <p><a href="#">@foryoursake.jp</a></p>
+          </address>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer__nav">
+          <h4 class="footer__nav-title">Links</h4>
+          <ul class="footer__nav-list">
+            <li><a href="#" class="footer__nav-link">TOP PAGE</a></li>
+            <li><a href="#" class="footer__nav-link">ONLINE SHOP</a></li>
+            <li><a href="#about" class="footer__nav-link">ABOUT US</a></li>
+            <li><a href="#" class="footer__nav-link">BLOG</a></li>
+            <li><a href="#" class="footer__nav-link">POLICIES</a></li>
+            <li><a href="#" class="footer__nav-link">パートナーの皆様へ</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="newsletter">
+          <h4 class="newsletter__title">Stay Updated</h4>
+          <p class="footer__description">
+            Sign up to receive monthly insights on Japan's sake culture & brewery access.
+          </p>
+          <form class="newsletter__form">
+            <input type="email" class="newsletter__input" placeholder="Your email" required>
+            <button type="submit" class="btn btn--white btn--sm">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2024 Japanese SAKE. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
