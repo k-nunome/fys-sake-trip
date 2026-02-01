@@ -8,7 +8,7 @@
 
   /* Typography Scale */
   .hero__title {
-    font-size: var(--text-6xl);
+    font-size: var(--text-7xl);
   }
 
   .section__title {
@@ -16,7 +16,7 @@
   }
 
   .section__title--large {
-    font-size: var(--text-7xl);
+    font-size: var(--text-6xl);
   }
 
   .cta__title {
@@ -72,10 +72,6 @@
   .getstarted__content-overlay {
     padding: var(--space-12);
     max-width: 600px;
-  }
-
-  .section__title--large {
-    font-size: var(--text-6xl);
   }
 
   /* About */
@@ -145,7 +141,7 @@
 
   /* Typography Scale */
   .hero__title {
-    font-size: var(--text-7xl);
+    font-size: var(--text-8xl);
   }
 
   .section__title {
@@ -161,14 +157,9 @@
     padding: 6rem 0;
   }
 
-  /* Hero */
-  .hero__content--centered {
-    padding: var(--space-20) 0;
-  }
-
   /* Large Title */
   .section__title--large {
-    font-size: var(--text-8xl);
+    font-size: var(--text-7xl);
   }
 
   /* Get Started */
@@ -214,11 +205,11 @@
 /* Large Desktop (1200px and up) */
 @media (min-width: 1200px) {
   .hero__title {
-    font-size: var(--text-8xl);
+    font-size: 7rem;
   }
 
   .section__title--large {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 
   /* Regions - 5 columns layout */
