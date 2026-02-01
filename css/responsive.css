@@ -8,15 +8,19 @@
 
   /* Typography Scale */
   .hero__title {
-    font-size: var(--text-5xl);
+    font-size: var(--text-6xl);
   }
 
   .section__title {
-    font-size: var(--text-4xl);
+    font-size: var(--text-5xl);
+  }
+
+  .section__title--large {
+    font-size: var(--text-7xl);
   }
 
   .cta__title {
-    font-size: var(--text-4xl);
+    font-size: var(--text-5xl);
   }
 
   /* Header */
@@ -136,31 +140,35 @@
 /* Desktop (1024px and up) */
 @media (min-width: 1024px) {
   :root {
-    --container-padding: var(--space-8);
+    --container-padding: var(--space-10);
   }
 
   /* Typography Scale */
   .hero__title {
-    font-size: var(--text-6xl);
+    font-size: var(--text-7xl);
   }
 
   .section__title {
     font-size: var(--text-5xl);
   }
 
+  .cta__title {
+    font-size: var(--text-5xl);
+  }
+
   /* Section Spacing */
   .section {
-    padding: var(--space-24) 0;
+    padding: 6rem 0;
   }
 
   /* Hero */
   .hero__content--centered {
-    padding: var(--space-16) 0;
+    padding: var(--space-20) 0;
   }
 
   /* Large Title */
   .section__title--large {
-    font-size: var(--text-7xl);
+    font-size: var(--text-8xl);
   }
 
   /* Get Started */
@@ -206,7 +214,11 @@
 /* Large Desktop (1200px and up) */
 @media (min-width: 1200px) {
   .hero__title {
-    font-size: var(--text-7xl);
+    font-size: var(--text-8xl);
+  }
+
+  .section__title--large {
+    font-size: 5rem;
   }
 
   /* Regions - 5 columns layout */
