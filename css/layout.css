@@ -512,8 +512,8 @@ body {
 
 /* Footer - Clean, minimal style */
 .footer {
-  background-color: var(--color-text-primary);
-  color: var(--color-white);
+  background-color: #1a1a1a;
+  color: #ffffff;
   padding: var(--space-20) 0 var(--space-8);
 }
 
