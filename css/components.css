@@ -280,12 +280,7 @@
 .package-card__title {
   font-family: var(--font-primary);
   font-size: var(--text-xl);
-  font-weight: var(--font-regular);
   margin-bottom: var(--space-3);
-}
-
-.package-card__title strong {
-  font-weight: var(--font-bold);
 }
 
 .package-card__description {
