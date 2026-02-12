@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeaderScroll();
   initNewsletterForm();
   initScrollAnimations();
+  initReservationForm();
 });
 
 /**
@@ -263,3 +264,28 @@ function initTheme() {
 
 // Initialize theme on load
 initTheme();
+
+/**
+ * Reservation Form Handling
+ */
+function initReservationForm() {
+  const form = document.getElementById('reservationForm');
+  const successMessage = document.getElementById('formSuccess');
+
+  if (!form || !successMessage) return;
+
+  form.addEventListener('submit', function() {
+    const submitBtn = form.querySelector('button[type="submit"]');
+
+    if (submitBtn) {
+      submitBtn.textContent = 'Sending...';
+      submitBtn.disabled = true;
+    }
+
+    // Show success message after a short delay (to allow form submission)
+    setTimeout(() => {
+      form.style.display = 'none';
+      successMessage.style.display = 'block';
+    }, 1000);
+  });
+}

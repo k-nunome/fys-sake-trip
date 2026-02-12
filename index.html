@@ -223,6 +223,63 @@
     </div>
   </section>
 
+  <!-- Reservation Section -->
+  <section class="section section--alt" id="reservation">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">Book Your Experience</h2>
+        <p class="section__subtitle-text">Reserve your spot for an unforgettable sake journey</p>
+      </div>
+
+      <div class="reservation-form-wrapper">
+        <form
+          class="reservation-form"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSc6-PuBceyoB3Vt2CPyNZrk3EfDglvhp-h3LOuV7vrHB-qI0Q/formResponse"
+          method="POST"
+          target="hidden_iframe"
+          id="reservationForm"
+        >
+          <div class="form-group">
+            <label class="form-label" for="name">Name</label>
+            <input type="text" id="name" name="entry.1545513714" class="form-input" placeholder="Your name" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" id="email" name="entry.735271853" class="form-input" placeholder="Your email" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="plan">Plan</label>
+            <select id="plan" name="entry.1843013076" class="form-input" required>
+              <option value="">Select a plan</option>
+              <option value="Tokyo Tasting Tour 7 March 2026">Tokyo Tasting Tour 7, March, 2026</option>
+              <option value="Tokyo Tasting Tour 8 March 2026">Tokyo Tasting Tour 8, March, 2026</option>
+              <option value="Tokyo Tasting Tour 9 March 2026">Tokyo Tasting Tour 9, March, 2026</option>
+              <option value="Toyama Brewery Visit 2 April 2026">Toyama Brewery Visit 2, April, 2026</option>
+              <option value="Toyama Brewery Visit 3 April 2026">Toyama Brewery Visit 3, April, 2026</option>
+              <option value="Masu Workshop in Nagano 20 April 2026">Masu Workshop in Nagano 20, April, 2026</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="guests">Number of Guests</label>
+            <input type="number" id="guests" name="entry.2073558371" class="form-input" placeholder="1" min="1" max="20" required>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--lg reservation-form__submit">Submit Reservation</button>
+        </form>
+
+        <div class="reservation-form__success" id="formSuccess" style="display: none;">
+          <h3>Thank you!</h3>
+          <p>Your reservation request has been submitted. We'll contact you soon.</p>
+        </div>
+      </div>
+
+      <iframe name="hidden_iframe" style="display:none;"></iframe>
+    </div>
+  </section>
+
   <!-- CTA Section -->
   <section class="cta">
     <div class="container">
