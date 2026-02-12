@@ -29,14 +29,13 @@
         <nav class="header__nav" aria-label="Main navigation">
           <ul class="header__nav-list">
             <li><a href="#about" class="header__nav-link">About us</a></li>
-            <li><a href="#" class="header__nav-link">Online shop</a></li>
+            <li><a href="https://shops.sake-hayashi.com" class="header__nav-link">Online shop</a></li>
             <li><a href="#breweries" class="header__nav-link">Breweries</a></li>
             <li><a href="#" class="header__nav-link">blog</a></li>
           </ul>
         </nav>
 
         <div class="header__actions">
-          <a href="#" class="btn btn--primary btn--sm">LOG IN</a>
           <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
             <span class="menu-toggle__bar"></span>
             <span class="menu-toggle__bar"></span>
@@ -51,10 +50,9 @@
   <nav class="mobile-nav" aria-label="Mobile navigation">
     <ul class="mobile-nav__list">
       <li><a href="#about" class="mobile-nav__link">About us</a></li>
-      <li><a href="#" class="mobile-nav__link">Online shop</a></li>
+      <li><a href="https://shops.sake-hayashi.com" class="mobile-nav__link">Online shop</a></li>
       <li><a href="#breweries" class="mobile-nav__link">Breweries</a></li>
-      <li><a href="#" class="mobile-nav__link">blog</a></li>
-      <li><a href="#" class="mobile-nav__link">LOG IN</a></li>
+      <li><a href="https://www.instagram.com/foryoursake.jp/" class="mobile-nav__link">INSTAGRAM</a></li>
     </ul>
   </nav>
 
@@ -71,8 +69,8 @@
         </p>
         <div class="hero__signup">
           <p class="hero__signup-text">Sign up to receive monthly insights on Japan's sake culture & brewery access.</p>
-          <form class="hero__signup-form">
-            <input type="email" class="hero__signup-input" placeholder="Your email" required>
+          <form class="hero__signup-form" action="https://formspree.io/f/mjgegqlw" method="POST">
+            <input type="email" name="email" class="hero__signup-input" placeholder="Your email" required>
             <button type="submit" class="btn btn--primary">Subscribe</button>
           </form>
         </div>
@@ -264,8 +262,7 @@
           <address class="footer__address">
             <p>1203, 4-417 Nishi-Shinjuku, Shinjuku-ku, Tokyo, Japan</p>
             <p><a href="tel:+81368210402">+81 03-6821-0402</a></p>
-            <p><a href="mailto:info@foryoursake.jp">info@foryoursake.jp</a></p>
-            <p><a href="#">@foryoursake.jp</a></p>
+            <p><a href="mailto:contact@foryoursake.jp">contact@foryoursake.jp</a></p>
           </address>
         </div>
 
@@ -274,11 +271,8 @@
           <h4 class="footer__nav-title">Links</h4>
           <ul class="footer__nav-list">
             <li><a href="#" class="footer__nav-link">TOP PAGE</a></li>
-            <li><a href="#" class="footer__nav-link">ONLINE SHOP</a></li>
-            <li><a href="#about" class="footer__nav-link">ABOUT US</a></li>
-            <li><a href="#" class="footer__nav-link">BLOG</a></li>
-            <li><a href="#" class="footer__nav-link">POLICIES</a></li>
-            <li><a href="#" class="footer__nav-link">For Partners</a></li>
+            <li><a href="https://shops.sake-hayashi.com" class="footer__nav-link">ONLINE SHOP</a></li>
+            <li><a href="https://www.instagram.com/foryoursake.jp/" class="footer__nav-link">INSTAGRAM</a></li>
           </ul>
         </div>
 
@@ -288,8 +282,8 @@
           <p class="footer__description">
             Sign up to receive monthly insights on Japan's sake culture & brewery access.
           </p>
-          <form class="newsletter__form">
-            <input type="email" class="newsletter__input" placeholder="Your email" required>
+          <form class="newsletter__form" action="https://formspree.io/f/mjgegqlw" method="POST">
+            <input type="email" name="email" class="newsletter__input" placeholder="Your email" required>
             <button type="submit" class="btn btn--white btn--sm">Subscribe</button>
           </form>
         </div>
@@ -297,7 +291,7 @@
 
       <!-- Bottom -->
       <div class="footer__bottom">
-        <p class="footer__copyright">&copy; 2024 Japanese SAKE. All rights reserved.</p>
+        <p class="footer__copyright">&copy; 2024 for your sake. All rights reserved.</p>
       </div>
     </div>
   </footer>
